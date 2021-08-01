@@ -3,8 +3,120 @@
   background-image: url(../images/back.png);
   background-repeat: no-repeat;
   background-position: center;
+  width: 1440px;
 }
 
+.navbar_logo__name {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 23px;
+  line-height: 28px;
+  color: #fff;
+}
+.navbar_logo__desk {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 10px;
+  color: #fff;
+}
+.navbar_list__item {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 158.86%;
+  color: #fff;
+}
+.navbar_phone {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 158.86%;
+  text-align: right;
+  color: #fff;
+}
+.navbar_variety_1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 55px;
+  color: #fff;
+}
+.navbar_variety_2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 93px;
+  line-height: 113px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #f5f9fc;
+  opacity: 0.2;
+}
+.navbar_variety_3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 148.6%;
+  color: #fff;
+}
+.navbar_variety_button {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 158.86%;
+  color: #fff;
+  background-color: #0266c1;
+  width: 246px;
+  height: 59px;
+}
+.tour_heading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 43px;
+  color: #2d383f;
+}
+.tour_location__p{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  }
+.tour_day_quantity{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #fff;
+}
+.tour_night_quantity{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #fff;
+}
+.tour_location__h2{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+color: #fff;
+}
 .tour_item1 {
   background-image: url(../images/tour1.png);
   background-repeat: no-repeat;
