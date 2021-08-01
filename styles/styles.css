@@ -1,1 +1,40 @@
 @import url(../fonts/fonts.css);
+.navbar {
+  background-image: url(../images/back.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tour_item1 {
+  background-image: url(../images/tour1.png);
+  background-repeat: no-repeat;
+  max-width: 384.17px;
+  height: 412px;
+}
+
+.tour_line {
+  width: 79.01px;
+  height: 1px;
+  background: #fff;
+}
+.tour_item2 {
+  background-image: url(../images/tour2.png);
+  background-repeat: no-repeat;
+  max-width: 384.17px;
+  height: 412px;
+}
+.tour_item3 {
+  background-image: url(../images/tour3.png);
+  background-repeat: no-repeat;
+  max-width: 384.17px;
+  height: 412px;
+}
+.arrow_right {
+  background-image: url(/images/fon.png);
+  background-repeat: no-repeat;
+}
+
+.arrow_left {
+  background-image: url(/images/fon.png);
+  background-repeat: no-repeat;
+}

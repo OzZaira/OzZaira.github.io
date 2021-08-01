@@ -1,15 +1,247 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;0,900;1,800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Caucasus Ozieva Zaira</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="navbar_logo">
+          <svg height="100" width="100"><use xlink:href="svg/icons.svg#logo"></use></svg>
+          <p class="navbar_logo__name">CAUCASUS</p>
+          <p class="navbar_logo__desk">Организация походов в горы</p>
+        </div>
+        <ul class="navbar_list">
+          <li><a class="navbar_list__item" href="">Туры</a></li>
+          <li><a class="navbar_list__item" href="">Обучение</a></li>
+          <li><a class="navbar_list__item" href="">О нас</a></li>
+          <li><a class="navbar_list__item" href="">Отзывы</a></li>
+          <li><a class="navbar_list__item" href="">Фотографии</a></li>
+          <li><a class="navbar_list__item" href="">Контакты</a></li>
+        </ul>
+        <a class="navbar_phone" href="tel:8 800 725 32 32">8 800 725 32 32</a>
+        <div class="navbar_variety">
+          <p class="navbar_variety_1">Походы в горы Кавказа</p>
+          <p class="navbar_variety_2">trekking</p>
+          <p class="navbar_variety_3">
+            Профессионально организовываем экскурсии <br>
+            на самые красивые вершины региона
+          </p>
+          <button class="navbar_variety_button">Выбрать экскурсию</button>
+        </div>
+        <ul class="navbar_socials">
+          <li class="navbar_social_icon">
+            <a href=""> <svg height="100" width="100"><use xlink:href="svg/icons.svg#vk"></use></svg> </a>
+          </li>
+          <li class="navbar_social_icon">
+            <a href=""><svg height="100" width="100"><use xlink:href="svg/icons.svg#facebook"></use></svg> </a>
+          </li>
+          <li class="navbar_social_icon">
+            <a href=""><svg height="100" width="100"><use xlink:href="svg/icons.svg#inst"></use></svg> </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="tour">
+        <h2 class="tour_heading">Ближайщие туры</h2>
+        <div class="arrow">
+          <button class="arrow_right"><img src="/images/Arrow.png" alt="right"></button>
+          <button class="arrow_left"><img src="/images/Arrow (1).png" alt="left"></button>
+        </div> 
+        <div class="tour_items">
+          <div class="tour_item1">
+            <button class="tour_location">
+              <img
+                class="tour_location__img"
+                src="/images/Vector 1.jpg"
+                alt=""
+              />
+              <p class="tour_location__p">Кавказ</p>
+            </button>
+            <img class="tour_day__img" src="/images/Vector (2).png" alt="" />
+            <p class="tour_day_quantity">4 дня</p>
+            <img class="tour_night__img" src="/images/Vector (3).png" alt="" />
+            <p class="tour_night_quantity">3 ночи</p>
+            <h2 class="tour_location__h2">
+              Путешествие <br />
+              вокруг Эльбруса
+            </h2>
+            <hr class="tour_line" />
+            <ul class="tour_data">
+              <li class="tour_data__difficult1">Сложность:</li>
+              <li class="tour_data__date1">Даты набора:</li>
+              <li class="tour_data__set1">Группа:</li>
+              <li class="tour_data__stars">
+                <svg height="100" width="100"><use xlink:href="svg/icons.svg#stars1"></use></svg>
+              </li>
+              <li class="tour_data__date2">12.06-19.06</li>
+              <li class="tour_data__set2">до 15 чел.</li>
+            </ul>
+          </div>
 
-</body>
+          <div class="tour_item2">
+            <button class="tour_location">
+              <img
+                class="tour_location__img"
+                src="/images/Vector 1.jpg"
+                alt=""/>
+              <p class="tour_location__p">Ингушетия</p>
+            </button>
+            <img class="tour_day__img" src="/images/Vector (2).png" alt="" />
+            <p class="tour_day_quantity">5 дней</p>
+            <img class="tour_night__img" src="/images/Vector (3).png" alt="" />
+            <p class="tour_night_quantity">4 ночи</p>
+            <h2 class="tour_location__h2">
+              Восхождение на <br />
+              гору Столовая
+            </h2>
+            <hr class="tour_line" />
+            <ul class="tour_data">
+              <li class="tour_data__difficult">Сложность:</li>
+              <li class="tour_data__date1">Даты набора:</li>
+              <li class="tour_data__set1">Группа:</li>
+              <li class="tour_data__stars">
+                <svg height="100" width="100"><use xlink:href="svg/icons.svg#stars2"></use></svg>
+              </li>
+              <li class="tour_data__date2">14.06-23.06</li>
+              <li class="tour_data__set2">до 25 чел.</li>
+            </ul>
+          </div>
 
+          <div class="tour_item3">
+            <button class="tour_location">
+              <img
+                class="tour_location__img"
+                src="/images/Vector 1.jpg"
+                alt=""
+              />
+              <p class="tour_location__p">Адыгея</p>
+            </button>
+            <img class="tour_day__img" src="/images/Vector (2).png" alt="" />
+            <p class="tour_day_quantity">7 дней</p>
+            <img class="tour_night__img" src="/images/Vector (3).png" alt="" />
+            <p class="tour_night_quantity">6 ночей</p>
+            <h2 class="tour_location__h2">
+              Через Фишт <br />
+              к Черному морю
+            </h2>
+            <hr class="tour_line" />
+            <ul class="tour_data">
+              <li class="tour_data__difficult">Сложность:</li>
+              <li class="tour_data__date1">Даты набора:</li>
+              <li class="tour_data__set1">Группа:</li>
+              <li class="tour_data__difficult2"></li>
+                <svg height="100" width="100"><use xlink:href="svg/icons.svg#stars1"></use></svg>
+              </li>
+              <li class="tour_data__date2">15.07-19.07</li>
+              <li class="tour_data__set2">до 22 чел.</li>
+            </ul>
+          </div>
+        </div>
+        <p class="tour_choice">Показать все туры</p>
+        <img src="/images/choice.png" alt="">
+      </div>
+      <div class="training">
+        <h2 class="training_title">Обучение</h2>
+        <p class="training_text">Обучение проводится квалифицированными специалистами, за плечами которых десятки пройденных <br> 
+          маршрутов Кавказа, Крыма, Гималаев, Эльбруса, Алтая, Карелии, Адыгеи и других.</p>
+        <h4 class="training_subtitle">Наши инструкторы</h4>
+        <div class="arrow">
+          <button class="arrow_right"><img src="/images/Arrow.png" alt="right"></button>
+          <button class="arrow_left"><img src="/images/Arrow (1).png" alt="left"></button>
+        </div> 
+        <ul class="training_instructors">
+          <li class=training_instructor"">
+            <img src="/images/instructor1.png" alt=instructor1">
+            <h6 training_instructor__fi>Александр Прокофьев</h6>
+            <a href=""><img src="/images/vk bl.png" alt="vk"></a>
+            <p class="training_instructor__desc">Любит природу. Строгий,
+              справедливый и внимательный 
+              инструктор, веселый и общительный человек.</p>
+          </li>
+          <li class=training_instructor"">
+            <img src="/images/instructor2.png" alt=instructor2">
+            <h6 training_instructor__fi>Светлана Афиногенова</h6>
+            <a href=""><img src="/images/vk bl.png" alt="vk"></a>
+            <p class="training_instructor__desc">Видеть мир вокруг, познавать 
+              его опасности, смотреть сквозь 
+              стены, находить друг друга, 
+              становиться ближе, чувствовать 
+              — в этом назначение жизни.</p>
+          </li>
+          <li class=training_instructor"">
+            <img src="/images/instructor3.png" alt=instructor3">
+            <h6 training_instructor__fi>Надежда Колесниченко</h6>
+            <a href=""><img src="/images/vk bl.png" alt="vk"></a>
+            <p class="training_instructor__desc">Участники говорят, 
+            что Надежда ответственная, приятная в общении, и в 
+            поез        дках с ней чувствуешь 
+            себя спокойно и уверенно.</p>
+          </li>
+          <li class=training_instructor"">
+            <img src="/images/instructor4.png" alt=instructor4">
+            <h6 training_instructor__fi>Федор Кайгородов</h6>
+            <a href=""><img src="/images/vk bl.png" alt="vk"></a>
+            <p class="training_instructor__desc">Опыт походов: Ходит в походы с 
+              2001 года. В России побывал в 
+              горных районах Хибины, 
+              приэльбрусье, Архыз, много 
+              путешествует по Европе.</p>
+          </li>
+          <li class=training_instructor"">
+            <img src="/images/instructor5.png" alt=instructor5">
+            <h6 training_instructor__fi>Сергей Денисов</h6>
+            <a href=""><img src="/images/vk bl.png" alt="vk"></a>
+            <p class="training_instructor__desc">Профессиональный гид, 
+              путешественник, спортсмен, 
+              альпинист. Блестящий 
+              рассказчик, собеседник; с ним 
+              не скучно.</p>
+          </li>
+        </ul>
+        <div class="training_process">
+          <h4 class="training_process__subtitle">Процесс обучения</h4>
+          <ul class="training_process__items">
+            <li class="training_process__item">
+              <svg height="100" width="100"><use xlink:href="svg/icons.svg#map"></use></svg>
+              <p class="training_process__text">Изучение спортивного туристского движения</p>
+            </li>
+            <li class="training_process__item">
+              <svg height="100" width="100"><use xlink:href="svg/icons.svg#boots"></use></svg>
+              <p class="training_process__text">Подготовка и техническое снаряжение в походах</p>
+            </li>
+            <li class="training_process__item">
+              <svg height="100" width="100"><use xlink:href="svg/icons.svg#pine-tree"></use></svg>
+              <p class="training_process__text">Лекции по экологии, окружающей среде и гигиене</p>
+            </li>
+            <li class="training_process__item">
+              <svg height="100" width="100"><use xlink:href="svg/icons.svg#mountain"></use></svg>
+              <p class="training_process__text">Разъяснение характера горных препядствий и их сложности</p>
+            </li>
+          </ul>
+        </div>
+
+        
+        
+        
+      </div>
+      <!-- тут должна быть граница из линий и кругов. -->
+      <div class="about us">
+        <img  class="about us_img" src="/images/about us.png" alt="about us">
+        <h2 class="about us_title">О нас</h2>
+        <h3 class="about us_subtitle"> История компании</h3>
+        <p class="about us_text">В далеком 2000 году мы начали заниматься туризмом - походы, поездки, восхождения, нам это настолько понравилось, что мы этим стали жить. Спустя 5 лет, в 2005 году мы основали компанию, чтобы показывать людям удивительные места Северного Кавказа.</p>
+        <h3 class="about us_subtitle"> Наша цель</h3>
+        <p class="about us_text">Подарить вам незабываемые впечатления от похода в горы. Мы берем на себя все организационные вопросы. При организации мы обязательно учтем все ваши пожелания. Вам остенется только наслаждаться незабываемым приключеним.</p>
+      </div>
+    
+    </main>
+  </body>
 </html>
